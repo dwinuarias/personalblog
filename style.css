@@ -1,0 +1,161 @@
+/* Utilities */
+
+*{
+	background-color: #f5f6fa;
+	color: #2c3e50;
+	font-family: 'Rubik', sans-serif;
+}
+p{
+	font-size: 20px;
+	line-height: 1.5em;
+}
+h4{
+	color: #2c3e50;
+	font-weight: lighter;
+	font-size: 14px;
+	margin-top: -20px;
+}
+.container{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.container-fluid{
+	width: 80%;
+	margin: 0 auto;
+}
+.btn{
+
+	padding: 10px;
+	background-color: #2193b0;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+.red{
+	color: #c0392b;
+}
+.brown{
+	color: brown;
+}
+.bg-white{
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;	
+	size: cover;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .container{
+		width: 80%;
+	}
+	.landing-page{
+	margin-top: -80px;
+	}
+
+	.landing-page .landing-title .title{
+		font-size: 30px;
+		line-height: 40px;
+		font-weight: bold;
+		}
+	.landing-page .landing-title .desc{
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: lighter;	
+	}
+	.blog-box p a{
+		line-height: 2em;	
+	}
+	
+}
+
+/* Additional Landing Page */
+.landing-page{
+	padding-top: 100px;
+
+}
+.landing-title .title{
+	font-size: 35px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.landing-title .desc{
+	
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: lighter;	
+}
+.landing-title .sc-m{
+	
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	
+}
+
+.landing-title .sc-m a{
+	color: #7f8c8d;
+	text-decoration: none;
+}
+
+.landing-title .cas{
+	margin-top: -25px;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: lighter;	
+	margin-bottom: 40px;
+}
+
+/* Additional Blogs */
+.blog-box p a{
+	width: 80%;
+    background-image: -webkit-linear-gradient(top left, #2193b0, #6dd5ed);
+    background-image: -o-linear-gradient(top left, #2193b0, #6dd5ed);
+    background-image: linear-gradient(to bottom right, #2193b0, #6dd5ed);
+	color: white;
+	padding: 10px;
+	margin-bottom: -10px;
+	text-decoration: none;
+	
+
+}
+
+/* Additional Blog */
+.blog-navbar{
+	margin: 30px 0;
+	color: #7f8c8d;	
+}
+.blog-navbar a{
+	color: #2193b0;
+	text-decoration: none;
+	font-weight: bold;
+	border: 1 solid #16a085;
+}
+
+.blog-footer{
+	padding-top: 8px;
+	font-size: 14px;
+	color: #7f8c8d;
+	padding-bottom:30px; 
+}
+
+/* Additional Form */
+
+.form-login input{
+	padding: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.form-login button{
+	padding: 10px;
+	background-color: #2193b0;
+	color: white;
+	border-radius: 5px;
+	border: none;
+}
+
+/* Additional table */
